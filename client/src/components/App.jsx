@@ -3,14 +3,18 @@ import Carousel from './Carousel.jsx';
 import axios from 'axios';
 
 class App extends React.Component {
-  constructor () {
-    super();
+  constructor (props) {
+    super(props);
+    this.state = {
+      items: []
+    }
   }
 
   componentDidMount(){
     axios.get('/getItems')
     .then((response) => {
-      console.log(response)
+      this.setState({items: response.data})
+      console.log(this.state.items)
     })
     .catch((err) => {
       console.log(err)
@@ -19,7 +23,7 @@ class App extends React.Component {
 
   render () {
     return (
-      <Carousel />
+      <Carousel items = {this.state.items}/>
     );
   }
 }
