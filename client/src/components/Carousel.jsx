@@ -9,7 +9,7 @@ const Carousel = (props) => {
     return (
     <div>
       <img src={item.item_image} height={200}></img>
-      <h3>{item.item_name}</h3>
+      <p>{item.item_name}</p>
       <h3>$ {item.item_price}</h3>
     </div>
     )

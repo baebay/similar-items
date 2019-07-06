@@ -7,15 +7,15 @@ class App extends React.Component {
     super(props);
     this.state = {
       currItemID: 5,
-      items: []
+      similarItems: []
     }
   }
 
   componentDidMount(){
     axios.get('/getItems',{params: {itemID:this.state.currItemID}})
     .then((response) => {
-      this.setState({items: response.data})
-      console.log(this.state.items)
+      this.setState({similarItems: response.data})
+      console.log(this.state.similarItems)
     })
     .catch((err) => {
       console.log(err)
@@ -24,7 +24,7 @@ class App extends React.Component {
 
   render () {
     return (
-      <Carousel items = {this.state.items}/>
+      <Carousel items = {this.state.similarItems}/>
     );
   }
 }
