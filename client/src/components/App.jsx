@@ -6,12 +6,13 @@ class App extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
+      currItemID: 5,
       items: []
     }
   }
 
   componentDidMount(){
-    axios.get('/getItems')
+    axios.get('/getItems',{params: {itemID:this.state.currItemID}})
     .then((response) => {
       this.setState({items: response.data})
       console.log(this.state.items)

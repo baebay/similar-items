@@ -16,8 +16,11 @@ app.get('/', (req, res) => {
 });
 
 app.get('/getItems', (req,res) => {
-  db.getItems((results) => {
-    res.send(results)
+  let currItemID = req.query.itemID
+  db.getCurrItemCategory(currItemID,(category)=>{
+    db.getSimilarItems(category,(results) => {
+      res.send(results)
+    })
   })
 })
 
