@@ -23,9 +23,12 @@ const Carousel = (props) => {
     arrows:true
   };
   return (
+    <div>
+    <p>Similar sponsored items</p>
     <Slider {...settings}>
       {itemList}
     </Slider>
+    </div>
   );
 }
 

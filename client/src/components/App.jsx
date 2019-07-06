@@ -6,12 +6,24 @@ class App extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
-      currItemID: 5,
+      currItemID: 1,
       similarItems: []
     }
   }
 
+  testOnClick () {
+    console.log('clicked');
+    const event = new CustomEvent('currentItem', { detail: { id: 5 }});
+    document.dispatchEvent(event);
+  }
+
   componentDidMount(){
+
+    document.addEventListener('currentItem', (event) => {
+      console.log(event.detail.id)
+      this.setState({currItemID: event.detail.id})
+    });
+
     axios.get('/getItems',{params: {itemID:this.state.currItemID}})
     .then((response) => {
       this.setState({similarItems: response.data})
@@ -22,9 +34,24 @@ class App extends React.Component {
     })
   }
 
+  // componentDidUpdate(){
+  //   axios.get('/getItems',{params: {itemID:this.state.currItemID}})
+  //   .then((response) => {
+  //     console.log(this.state.currItemID)
+  //     this.setState({similarItems: response.data})
+  //     console.log(this.state.similarItems)
+  //   })
+  //   .catch((err) => {
+  //     console.log(err)
+  //   })
+  // }
+
   render () {
     return (
+      <div>
+      <button onClick = {this.testOnClick}>Click Me</button>
       <Carousel items = {this.state.similarItems}/>
+      </div>
     );
   }
 }

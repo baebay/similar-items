@@ -16,3 +16,11 @@
 .slick-next:before {
   color: black;
 }
+
+body, html {
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.slick-slide {
+  text-align: center;
+}
