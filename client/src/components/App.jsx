@@ -6,14 +6,14 @@ class App extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
-      currItemID: 20,
+      currItemID: 55,
       similarItems: []
     }
   }
 
   testOnClick () {
     console.log('clicked');
-    const event = new CustomEvent('currentItem', { detail: { id: 21 }});
+    const event = new CustomEvent('currentItem', { detail: { id: 55 }});
     document.dispatchEvent(event);
   }
 
