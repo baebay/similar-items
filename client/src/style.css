@@ -1,21 +1,45 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
+.container {
+  border: 1px solid grey;
+  padding: 8px;
+}
+
 .slick-prev {
-  left: 3% !important;
+  left: 0% !important;
   z-index: 1;
 }
 .slick-next {
-  right: 3% !important;
+  right: 0% !important;
   z-index: 1;
 }
 
 .slick-prev:before {
-  color: black;
+  color: grey;
+  content: '<';
+  font-size: 30px;
 }
 .slick-next:before {
-  color: black;
+  color: grey;
+  content: '>';
+  font-size: 30px;
 }
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item_name {
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}​
 
 body, html {
   font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
@@ -23,4 +47,6 @@ body, html {
 
 .slick-slide {
   text-align: center;
+  padding: 0 8px;
+  box-sizing: border-box;
 }
