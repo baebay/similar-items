@@ -1,9 +1,25 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
+body, html {
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
 .container {
   border: 1px solid grey;
   padding: 8px;
+}
+
+.item_price {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+
+.shipping {
+  font-size: 13px;
+  margin: 0;
+  color:grey;
 }
 
 .slick-prev {
@@ -19,11 +35,13 @@
   color: grey;
   content: '<';
   font-size: 30px;
+  font-weight: 800;
 }
 .slick-next:before {
   color: grey;
   content: '>';
   font-size: 30px;
+  font-weight: 800;
 }
 
 img {
@@ -36,17 +54,14 @@ img {
 }
 
 .item_name {
+  font-size: 15px;
   overflow:hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }​
 
-body, html {
-  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
-}
-
 .slick-slide {
-  text-align: center;
+  text-align: left;
   padding: 0 8px;
   box-sizing: border-box;
 }

@@ -80,7 +80,7 @@ let items = [
   {
       item_id: 7,
       item_name: "The Reef",
-      item_price: 97.7,
+      item_price: 97.70,
       item_category: "Sea Books",
       item_image: "http://2ap93t1x1l6e2f6gfo3ag4vw.wpengine.netdna-cdn.com/wp-content/uploads/2016/11/13-The-Reef.jpg",
       shipping: "+2.99 shipping"
@@ -104,7 +104,7 @@ let items = [
   {
       item_id: 10,
       item_name: "Gulliver's Travels",
-      item_price: 6.4,
+      item_price: 6.40,
       item_category: "Sea Books",
       item_image: "https://kbimages1-a.akamaihd.net/235f0037-f891-48ce-b7b7-073aff385336/353/569/90/False/gulliver-s-travel.jpg",
       shipping: "Free shipping"
@@ -224,7 +224,7 @@ let items = [
   {
       item_id: 25,
       item_name: "Vintage Merriman Brothers Iron Kedge Anchor. Painted White.",
-      item_price: 75,
+      item_price: 75.00,
       item_category: "Anchoring, Docking",
       item_image: "https://i.ebayimg.com/images/g/wtIAAOSwGI9br~E2/s-l1600.jpg",
       shipping: "Free shipping"
@@ -232,7 +232,7 @@ let items = [
   {
       item_id: 26,
       item_name: "Conch Murex Spikey Shell Phone",
-      item_price: 299,
+      item_price: 299.00,
       item_category: "Shell Phones",
       item_image: "https://i.ebayimg.com/images/g/2fIAAOSwNaBdHg~T/s-l1600.jpg",
       shipping: "Free shipping"
@@ -240,7 +240,7 @@ let items = [
   {
       item_id: 27,
       item_name: "Conch V70 shell phone rose gold NEW IN BOX",
-      item_price: 349,
+      item_price: 349.00,
       item_category: "Shell Phones",
       item_image: "https://i.ebayimg.com/images/g/pvYAAOSwqu1axkcl/s-l1600.jpg",
       shipping: "+2.99 shipping"
@@ -256,7 +256,7 @@ let items = [
   {
       item_id: 29,
       item_name: "lagoon s10+ shell phone",
-      item_price: 488,
+      item_price: 488.00,
       item_category: "Shell Phones",
       item_image: "https://cdn.shopify.com/s/files/1/0249/5884/products/valfre-tech-shellphone-iphone-5-6-7-829x1140_96a3c865-074e-4922-8acd-d1730d4b9cac_720x.jpg?v=1547575587",
       shipping: "Free shipping"
@@ -264,7 +264,7 @@ let items = [
   {
       item_id: 30,
       item_name: "2020 Deluxe Mobile Home 1BR 1BA 2\"x3\" (6\"sq) MOBILE HOME-FOR ALL FLORIDA",
-      item_price: 1500,
+      item_price: 1500.00,
       item_category: "Mobile Homes and RVs",
       item_image: "https://3dprint.com/wp-content/uploads/2017/08/crab2.png",
       shipping: "Free shipping"
@@ -272,7 +272,7 @@ let items = [
   {
       item_id: 31,
       item_name: "INDUSTRIAL SYLE deluxe mobile home (two colors available)",
-      item_price: 2399,
+      item_price: 2399.00,
       item_category: "Mobile Homes and RVs",
       item_image: "https://bloximages.newyork1.vip.townnews.com/newsadvance.com/content/tncms/assets/v3/editorial/8/d6/8d640864-32b3-11e2-b0c5-0019bb30f31a/50aae008b6cc3.image.jpg",
       shipping: "+2.99 shipping"
@@ -280,7 +280,7 @@ let items = [
   {
       item_id: 32,
       item_name: "3BR 3BA Mobile Home FLORIDA",
-      item_price: 17500,
+      item_price: 17500.00,
       item_category: "Mobile Homes and RVs",
       item_image: "https://i.ebayimg.com/images/g/cMcAAOSwTfFbR5ly/s-l1600.jpg",
       shipping: "+3.99 shipping"
@@ -288,7 +288,7 @@ let items = [
   {
       item_id: 33,
       item_name: "SPACIOUS 1BR 1BA mobile home GALVASTON TX",
-      item_price: 13000,
+      item_price: 13000.00,
       item_category: "Mobile Homes and RVs",
       item_image: "https://i.ebayimg.com/images/g/KgMAAOxyXWdQ8ltm/s-l1600.jpg",
       shipping: "Free shipping"
@@ -296,7 +296,7 @@ let items = [
   {
       item_id: 34,
       item_name: "mobile home 100% RECYCLED MATERIAL ENVIRONMENTALLY FRIENDLY",
-      item_price: 20000,
+      item_price: 20000.00,
       item_category: "Mobile Homes and RVs",
       item_image: "https://mortyjsockssporclequizpics.weebly.com/uploads/1/1/5/6/115698155/hermit-crabs-6_orig.jpg",
       shipping: "Free shipping"
@@ -304,7 +304,7 @@ let items = [
   {
       item_id: 35,
       item_name: "Antique 18\" Diving vintage BOSTON MARK V U.S Navy Deep Sea Divers Helmet",
-      item_price: 429,
+      item_price: 429.00,
       item_category: "Hats",
       item_image: "https://i.ebayimg.com/images/g/TtIAAOSw6VVdGDn5/s-l1600.jpg",
       shipping: "+2.99 shipping"
@@ -312,7 +312,7 @@ let items = [
   {
       item_id: 36,
       item_name: "Full Face Snorkel Mask Scuba Diving Swimming Easy Breath Underwater Anti Fog",
-      item_price: 22,
+      item_price: 22.00,
       item_category: "Hats",
       item_image: "https://i.ebayimg.com/images/g/gRMAAOSwhxJdD3y7/s-l1600.jpg",
       shipping: "+3.99 shipping"
@@ -320,7 +320,7 @@ let items = [
   {
       item_id: 37,
       item_name: "Underwater Diving Mask Scuba Snorkel Goggles Anti Fog Silicone Half Face Glasses",
-      item_price: 13,
+      item_price: 13.00,
       item_category: "Hats",
       item_image: "https://i.ebayimg.com/images/g/Ja0AAOSw3FJdAcIi/s-l1600.jpg",
       shipping: "Free shipping"
@@ -328,7 +328,7 @@ let items = [
   {
       item_id: 38,
       item_name: "RARE ANTIQUE Vintage Siebe Gorman Copper & Bras REPRODUCT Diving Helmet #1120",
-      item_price: 379,
+      item_price: 379.00,
       item_category: "Hats",
       item_image: "https://i.ebayimg.com/images/g/W4AAAOSwFW9dGDw8/s-l1600.jpg",
       shipping: "Free shipping"
@@ -336,7 +336,7 @@ let items = [
   {
       item_id: 39,
       item_name: "Antique Brass Diving Helmet Us Navy Engineering Divers Helmet Vintage ",
-      item_price: 799,
+      item_price: 799.00,
       item_category: "Hats",
       item_image: "https://i.ebayimg.com/images/g/L8IAAOSwXW9bteIs/s-l1600.jpg",
       shipping: "+2.99 shipping"
@@ -503,47 +503,47 @@ let items = [
   {
       item_id: 60,
       item_name: "Jimbo Jumbo Painting",
-      item_price: 189,
-      item_category: "Equestrian ",
+      item_price: 189.00,
+      item_category: "Equestrian",
       item_image: "https://nateduval.com/wp-content/uploads/2014/10/aquaticeq.jpg",
       shipping: "+3.99 shipping"
   },
   {
       item_id: 61,
       item_name: "Swim Trainer",
-      item_price: 589,
-      item_category: "Equestrian ",
+      item_price: 589.00,
+      item_category: "Equestrian",
       item_image: "https://nateduval.com/wp-content/uploads/2014/10/aquaticeq.jpg",
       shipping: "Free shipping"
   },
   {
       item_id: 62,
       item_name: "Horse Life Jacket",
-      item_price: 18,
-      item_category: "Equestrian ",
+      item_price: 18.00,
+      item_category: "Equestrian",
       item_image: "http://3.bp.blogspot.com/-mXwxJepyFpk/U7Wlql8_DuI/AAAAAAAAD4k/nqMtKnp3JJo/s1600/PFD+Pony.jpeg",
       shipping: "Free shipping"
   },
   {
       item_id: 63,
       item_name: "Non-Land Horse",
-      item_price: 54,
-      item_category: "Equestrian ",
+      item_price: 54.00,
+      item_category: "Equestrian",
       item_image: "https://en.wikipedia.org/wiki/Seahorse#/media/File:Hippocampus.jpg",
       shipping: "+2.99 shipping"
   },
   {
       item_id: 64,
       item_name: "Sickly Sea Horse",
-      item_price: 119,
-      item_category: "Equestrian ",
+      item_price: 119.00,
+      item_category: "Equestrian",
       item_image: "https://vignette.wikia.nocookie.net/spongebob/images/f/f0/My_Pretty_Seahorse_07.png/revision/latest?cb=20130103021120",
       shipping: "+3.99 shipping"
   },
   {
       item_id: 65,
       item_name: "Labeled Sand Samples from Around The World Collected on 40+ Cruise Vacations",
-      item_price: 5,
+      item_price: 5.00,
       item_category: "Sand",
       item_image: "https://i.ebayimg.com/images/g/gBUAAOSwtkRcxez9/s-l1600.jpg",
       shipping: "Free shipping"
@@ -567,7 +567,7 @@ let items = [
   {
       item_id: 68,
       item_name: "Florida Cocoa Beach Florida Sand Sample",
-      item_price: 1,
+      item_price: 1.00,
       item_category: "Sand",
       item_image: "https://www.ebay.com/itm/Florida-Cocoa-Beach-Florida-Sand-Sample/322313531270?hash=item4b0b622f86:g:lUwAAOSwKtlWkl8~",
       shipping: "+3.99 shipping"
@@ -599,7 +599,7 @@ let items = [
   {
       item_id: 72,
       item_name: "Lot of 34 Bulgaria Sand Beach Sample from Black sea 3 oz (86g) each bag",
-      item_price: 70,
+      item_price: 70.00,
       item_category: "Sand",
       item_image: "https://i.ebayimg.com/images/g/~ikAAOSwdSRZ~jBf/s-l1600.jpg",
       shipping: "+3.99 shipping"
@@ -615,7 +615,7 @@ let items = [
   {
       item_id: 74,
       item_name: "Alabama Dauphin Island Beach Sand Sample",
-      item_price: 1,
+      item_price: 1.00,
       item_category: "Sand",
       item_image: "https://i.ebayimg.com/images/g/CzcAAOSwIXNc8qcL/s-l1600.jpg",
       shipping: "Free shipping"
@@ -647,7 +647,7 @@ let items = [
   {
       item_id: 78,
       item_name: "Star Sand Okinawa Japan - star sand beach - Sand sample 50 grams (1.76 oz)",
-      item_price: 13.5,
+      item_price: 13.50,
       item_category: "Sand",
       item_image: "https://i.ebayimg.com/images/g/RugAAOSwQVlcd1wM/s-l1600.jpg",
       shipping: "Free shipping"
@@ -688,7 +688,7 @@ let items = [
       item_id: 83,
       item_name: "Oceans 11 (Widescreen) (2001, Clooney)",
       item_price: 3.00,
-      item_category: "  DVDs & Movies",
+      item_category: "DVDs & Movies",
       item_image: "https://i.ebayimg.com/images/g/GZwAAOSwbAJbmXZr/s-l500.jpg",
       shipping: "+2.99 shipping"
   },
@@ -696,7 +696,7 @@ let items = [
       item_id: 84,
       item_name: "Oceans Twelve 12 DVD NEW Clooney, Pitt, Damon, Zeta- Jones, Roberts Widescreen",
       item_price: 8.70,
-      item_category: "  DVDs & Movies",
+      item_category: "DVDs & Movies",
       item_image: "https://i.ebayimg.com/05/!!eBu!,wEWM~$(KGrHqR,!jQE0D2IM1QdBNQ2l+S!Rg~~_12.JPG?set_id=89040003C1",
       shipping: "+3.99 shipping"
   },
@@ -704,7 +704,7 @@ let items = [
       item_id: 85,
       item_name: "OCEANS 13 Ocean’s Thirteen (DVD Widescreen) Brad Pitt George Clooney",
       item_price: 7.00,
-      item_category: "  DVDs & Movies",
+      item_category: "DVDs & Movies",
       item_image: "https://i.ebayimg.com/04/!!eBw-OQCGM~$(KGrHqJ,!lgEz+2LF49pBNQ4RJEwzw~~_12.JPG?set_id=89040003C1",
       shipping: "Free shipping"
   },
@@ -712,7 +712,7 @@ let items = [
       item_id: 86,
       item_name: "20,000 Leagues Under the Sea [New DVD] Special Edition",
       item_price: 11.56,
-      item_category: "  DVDs & Movies",
+      item_category: "DVDs & Movies",
       item_image: "https://i.ebayimg.com/images/g/OH4AAOSwKjlbVovQ/s-l500.jpg",
       shipping: "Free shipping"
   },
@@ -720,7 +720,7 @@ let items = [
       item_id: 87,
       item_name: "In the Heart of the Sea [New DVD] Full Frame, Subtitled, Ac-3/Dolby Digital",
       item_price: 7.47,
-      item_category: "  DVDs & Movies",
+      item_category: "DVDs & Movies",
       item_image: "https://i.ebayimg.com/images/g/8CQAAOSwfSJbVowg/s-l500.jpg",
       shipping: "+2.99 shipping"
   },
@@ -728,7 +728,7 @@ let items = [
       item_id: 88,
       item_name: "Godzilla vs The Sea Monster (DVD, 2014)",
       item_price: 14.11,
-      item_category: "  DVDs & Movies",
+      item_category: "DVDs & Movies",
       item_image: "https://i.ebayimg.com/images/g/S5cAAOSwH0Vb-h4H/s-l1600.jpg",
       shipping: "+3.99 shipping"
   },
@@ -736,7 +736,7 @@ let items = [
       item_id: 89,
       item_name: "Manchester by the Sea (DVD, 2017)",
       item_price: 3.99,
-      item_category: "  DVDs & Movies",
+      item_category: "DVDs & Movies",
       item_image: "https://i.ebayimg.com/images/g/~FsAAOSwleRcVkmp/s-l1600.jpg",
       shipping: "Free shipping"
   },

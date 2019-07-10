@@ -9,9 +9,9 @@ const Carousel = props => {
     return (
       <div>
         <img src={item.item_image} />
-        <p className="item_name">{item.item_name}</p>
-        <h3>$ {item.item_price}</h3>
-        <p>{item.shipping}</p>
+        <p className='item_name'>{item.item_name}</p>
+        <p className='item_price'>${item.item_price}</p>
+        <p className='shipping'>{item.shipping}</p>
       </div>
     );
   });
