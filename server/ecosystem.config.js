@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ec2-3-14-11-250.us-east-2.compute.amazonaws.com',
+      host: 'http://ec2-18-222-240-36.us-east-2.compute.amazonaws.com/',
       key: '~/.ssh/seabay.pem',
       ref: 'origin/master',
       repo: 'git@github.com:seabay-hratx42-fec/similar-items.git',
