@@ -7,7 +7,7 @@ const Carousel = props => {
   let twelveItems = similarItems.slice(0, 12);
   const itemList = twelveItems.map(item => {
     return (
-      <div>
+      <div onClick={()=>(props.itemClicked(item.item_id))}>
         <img src={item.item_image} />
         <p className='item_name'>{item.item_name}</p>
         <p className='item_price'>${item.item_price}</p>

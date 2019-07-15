@@ -11,21 +11,26 @@ class App extends React.Component {
     }
   }
 
-  testOnClick () {
-    console.log('clicked');
-    const event = new CustomEvent('currentItem', { detail: { id: 55 }});
+  itemClicked(item_id) {
+    console.log('item clicked',item_id);
+    const event = new CustomEvent('setCurrentItem', { detail: { id: item_id }});
     document.dispatchEvent(event);
   }
 
   componentDidMount(){
 
-    document.addEventListener('currentItem', (event) => {
+    document.addEventListener('setCurrentItem', (event) => {
       console.log(event.detail.id)
-      this.setState({currItemID: event.detail.id})
+      this.setState({currItemID: event.detail.id}, this.getSimilarItems)
     });
 
+    this.getSimilarItems()
+  }
+
+  getSimilarItems(){
     axios.get('/getItems',{params: {itemID:this.state.currItemID}})
     .then((response) => {
+      console.log(this.state.currItemID)
       this.setState({similarItems: response.data})
       console.log(this.state.similarItems)
     })
@@ -34,23 +39,10 @@ class App extends React.Component {
     })
   }
 
-  // componentDidUpdate(){
-  //   axios.get('/getItems',{params: {itemID:this.state.currItemID}})
-  //   .then((response) => {
-  //     console.log(this.state.currItemID)
-  //     this.setState({similarItems: response.data})
-  //     console.log(this.state.similarItems)
-  //   })
-  //   .catch((err) => {
-  //     console.log(err)
-  //   })
-  // }
-
   render () {
     return (
       <div>
-      <button onClick = {this.testOnClick}>Click Me</button>
-      <Carousel items = {this.state.similarItems}/>
+      <Carousel itemClicked = {this.itemClicked} items = {this.state.similarItems}/>
       </div>
     );
   }
