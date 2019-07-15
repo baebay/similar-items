@@ -8,7 +8,7 @@ const Carousel = props => {
   const itemList = twelveItems.map(item => {
     return (
       <div onClick={()=>(props.itemClicked(item.item_id))}>
-        <img src={item.item_image} />
+        <img className='imgSimilar' src={item.item_image} />
         <p className='item_name'>{item.item_name}</p>
         <p className='item_price'>${item.item_price}</p>
         <p className='shipping'>{item.shipping}</p>
@@ -24,7 +24,7 @@ const Carousel = props => {
     arrows: true
   };
   return (
-    <div className='container'>
+    <div className='containerSimilar'>
       <p>Similar sponsored items</p>
       <Slider {...settings}>{itemList}</Slider>
     </div>

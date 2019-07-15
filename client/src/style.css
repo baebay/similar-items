@@ -5,7 +5,7 @@ body, html {
   font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
 }
 
-.container {
+.containerSimilar {
   border: 1px solid grey;
   padding: 8px;
 }
@@ -44,7 +44,7 @@ body, html {
   font-weight: 800;
 }
 
-img {
+.imgSimilar {
   height: 150px;
   width: 150px;
   object-fit: contain;
