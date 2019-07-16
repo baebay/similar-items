@@ -30,9 +30,7 @@ class App extends React.Component {
   getSimilarItems(){
     axios.get('http://ec2-18-222-240-36.us-east-2.compute.amazonaws.com:3001/getItems',{params: {itemID:this.state.currItemID}})
     .then((response) => {
-      console.log(this.state.currItemID)
       this.setState({similarItems: response.data})
-      console.log(this.state.similarItems)
     })
     .catch((err) => {
       console.log(err)
@@ -44,6 +42,7 @@ class App extends React.Component {
       <div>
       <Carousel itemClicked = {this.itemClicked} items = {this.state.similarItems}/>
       </div>
+
     );
   }
 }
