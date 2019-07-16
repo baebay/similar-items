@@ -5,9 +5,27 @@ body, html {
   font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
 }
 
+.containerTitle {
+  float:left;
+  color:#333;
+}
+
+.feedback {
+  float:right;
+  padding-top: 15px;
+  font-size: 11px;
+  color:#333;
+  text-decoration:none
+}
+
+.feedback:hover {
+  text-decoration:underline;
+}
 .containerSimilar {
   border: 1px solid grey;
-  padding: 8px;
+  padding: 30px;
+  padding-top: 70px;
+  margin-top: -55px;
 }
 
 .item_price {
@@ -19,27 +37,25 @@ body, html {
 .shipping {
   font-size: 13px;
   margin: 0;
-  color:grey;
+  color:#767676;
 }
 
 .slick-prev {
-  left: 0% !important;
+  left: -2.0% !important;
   z-index: 1;
 }
 .slick-next {
-  right: 0% !important;
+  right: -1.0% !important;
   z-index: 1;
 }
 
 .slick-prev:before {
   color: grey;
-  content: '<';
   font-size: 30px;
   font-weight: 800;
 }
 .slick-next:before {
   color: grey;
-  content: '>';
   font-size: 30px;
   font-weight: 800;
 }
@@ -62,6 +78,5 @@ body, html {
 
 .slick-slide {
   text-align: left;
-  padding: 0 8px;
   box-sizing: border-box;
 }

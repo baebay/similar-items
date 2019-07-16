@@ -16,18 +16,6 @@ let itemSchema = new Schema({
 
 let Items = mongoose.model('Item', itemSchema);
 
-// Items.find({item_id:1})
-// .then(console.log)
-// .catch(console.error)
-
-// Items.insertMany(items, function (err, docs) {
-//   if (err){ 
-//       return console.error(err);
-//   } else {
-//     console.log("Multiple documents inserted to Items");
-//   }
-// });
-
 const getCurrItemCategory = (currItemID,callback) => {
   Items.findOne({item_id:currItemID},(err, item) => {
     if (err) return console.error(err);
