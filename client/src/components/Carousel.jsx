@@ -35,16 +35,15 @@ const Carousel = props => {
   };
   return (
     <div>
+      <div className='containerSimilar'>
       <Grid container>
-        <Grid item xs={6} style={{paddingLeft: 20}}>
+        <Grid item xs={6}>
           <p className='containerTitle'>Similar sponsored items</p>
         </Grid>
-        <Grid item xs={6} style={{paddingRight: 20}}>
+        <Grid item xs={6}>
           <a href="#" className='feedback'>Feedback on our suggestions</a>  
         </Grid>
       </Grid>
-
-      <div className='containerSimilar'>
         <Slider {...settings}>
           {itemList}
         </Slider>
