@@ -11,7 +11,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'git@github.com:seabay-hratx42-fec/similar-items.git',
       path: '/home/ubuntu/seabay',
-      'post-deploy': 'npm install && pm2 startOrRestart ~/seabay/source/server/ecosystem.config.js'
+      'post-deploy': 'npm install && npx webpack --config ./webpack.config.js && pm2 startOrRestart ~/seabay/source/server/ecosystem.config.js'
     }
   }
 }

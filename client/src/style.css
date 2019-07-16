@@ -8,14 +8,15 @@ body, html {
 .containerTitle {
   float:left;
   color:#333;
+  margin:0
 }
 
 .feedback {
   float:right;
-  padding-top: 15px;
   font-size: 11px;
   color:#333;
-  text-decoration:none
+  text-decoration:none;
+  margin-bottom:30px;
 }
 
 .feedback:hover {
@@ -24,8 +25,6 @@ body, html {
 .containerSimilar {
   border: 1px solid grey;
   padding: 30px;
-  padding-top: 70px;
-  margin-top: -55px;
 }
 
 .item_price {
