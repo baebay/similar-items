@@ -14,6 +14,9 @@ app.get("/", (req, res) => {
 
 app.get("/getItems", (req, res) => {
   let currItemID = req.query.itemID;
+  if(!currItemID){
+    res.sendStatus(404)
+  }
   db.getCurrItemCategory(currItemID, category => {
     db.getSimilarItems(category, results => {
       if (results.length < 12) {
