@@ -2,11 +2,13 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const db = require("./database/db");
+const compression = require("compression");
 
 app.use(cors());
 app.use(express.static("client/dist"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(compression());
 
 app.get("/", (req, res) => {
   res.status(200).send("Get request successful!");
